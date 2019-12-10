@@ -1,0 +1,1 @@
+Cách 2: Sử dụng file nhúng js vào file html.
