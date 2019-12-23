@@ -56,4 +56,31 @@ for (let i = 0; i < arrayNum.length; i++) {
     
 }
 
-console.log(arrayNum);
+let sumArr = 0;
+for (let i = 0; i < arrayNum.length; i++) {
+    for (let j = 0; j < arrayNum[i].length; j++) {
+        sumArr += arrayNum[i][j];
+        
+    }
+    
+}
+
+let result = "<table> <tr><td>id</td><td>name</td><td>class</td><td>class</td></tr>";
+// for (const stu of students) {
+//     debugger;
+//     let tmp = "<tr>";
+//     tmp += "<td>" + stu.id + "</td>" + "<td>" + stu.name + "</td>" + "<td>" + stu.class + "</td></tr>"  
+//     result += tmp;
+// }
+
+for (let i = 0; i < arrayNum.length; i++) {
+    let tmp = "<tr>";
+    for (let j = 0; j < arrayNum[i].length; j++) {
+        tmp += "<td>" + arrayNum[i][j] + "</td>"
+        
+    }
+    tmp += "</tr>";
+    result += tmp;
+}
+document.write(result);
+// console.log(sumArr);
