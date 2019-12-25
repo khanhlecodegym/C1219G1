@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .row {
+            width: 100%;
+        }
+
+        .left {
+            width: 50%;
+            float: left;
+        }
+        .right {
+            width: 50%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="left">
+            <img src="img/vw-beetle-icon.png" alt="" srcset="">
+            <h2>Xe của Sáng</h2>
+            <label>Độ bền</label>
+            <label>100</label>
+            <button id="sanghuc" type="submit" onclick="sangHuc(10)">Húc</button>
+        </div>
+        <div class="right">
+            <img src="img/vw-beetle-icon.png" alt="" srcset="">
+            <h2>Xe của Nam</h2>
+            <label>Độ bền</label>
+            <label id="hpNam">50</label>
+            <button id="namhuc" type="submit">Húc</button>
+        </div>     
+    </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
