@@ -1,5 +1,7 @@
 <?php 
-    $name = htmlspecialchars($_GET['name']) ;
+    include 'index.function.php';
+
+    // $name = htmlspecialchars($_GET['name']) ;
     
     $animals = [
         'Nam',
@@ -34,6 +36,22 @@
 
     // echo count($arr);
 
-    require 'index.view.php'
+        
+    
+
+
+    // require 'index.view.php'
+
+    // $result = substr('CodeGym',1,3);
+
+    // $result = strlen('CodeGym');
+
+    // $result = strpos('CodeGymee', 'e');
+    $name = "Nuyen           ";
+    $result = trim($name);
+    var_dump($result);
+
+
+    // echo $result;
         
 ?>
